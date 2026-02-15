@@ -59,11 +59,7 @@
             display: flex; align-items: center; justify-content: space-between; height: 72px;
         }
         .nav-logo { display: flex; align-items: center; gap: 10px; }
-        .nav-logo svg { height: 32px; width: auto; }
-        .nav-logo span {
-            font-weight: 600; font-size: 1.15rem;
-            color: var(--slate-900); letter-spacing: -0.01em;
-        }
+        .nav-logo img { height: 36px; width: auto; }
         .nav-links { display: flex; align-items: center; gap: 36px; }
         .nav-links a {
             font-size: 0.9rem; font-weight: 500; color: var(--slate-600);
@@ -408,7 +404,7 @@
         .footer-brand p {
             font-size: 0.88rem; max-width: 300px; line-height: 1.65; margin-top: 14px;
         }
-        .footer-brand svg { height: 28px; }
+        .footer-brand img { height: 32px; width: auto; }
         .footer-links { display: flex; gap: 48px; }
         .footer-col h4 {
             font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
@@ -474,12 +470,7 @@
     <nav id="nav">
         <div class="container">
             <a href="#" class="nav-logo">
-                <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 10 L50 90 L58 74" fill="#2d3347" />
-                    <path d="M58 74 L66 90 L78 66" fill="#555c78" />
-                    <path d="M78 66 L90 42 L110 10 L80 10" fill="#9098b0" />
-                </svg>
-                <span>Vinyx Systems</span>
+                <img src="Logo_v3_light_greytext_next_to.png" alt="Vinyx Systems">
             </a>
             <div class="nav-links" id="navLinks">
                 <a href="#problem">The Problem</a>
@@ -712,7 +703,7 @@
                         <button class="form-tab active" data-tab="demo" onclick="switchTab('demo')">Request a Demo</button>
                         <button class="form-tab" data-tab="general" onclick="switchTab('general')">General Inquiry</button>
                     </div>
-                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <form id="contactForm" action="https://formspree.io/f/mvzbalzd" method="POST">
                         <input type="hidden" name="form_type" id="formType" value="demo">
                         <div class="form-row">
                             <div class="form-group">
@@ -761,11 +752,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 10 L50 90 L58 74" fill="#6e7590" />
-                        <path d="M58 74 L66 90 L78 66" fill="#555c78" />
-                        <path d="M78 66 L90 42 L110 10 L80 10" fill="#3f4560" />
-                    </svg>
+                    <img src="Logo_v3_light_greytext_next_to.png" alt="Vinyx Systems" style="filter: brightness(0) invert(0.6);">
                     <p>Purpose-built CRA management software for Utah counties. Replacing spreadsheets with accuracy, compliance, and transparency.</p>
                 </div>
                 <div class="footer-links">
